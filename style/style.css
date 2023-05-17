@@ -7,9 +7,26 @@ body {
     margin: 0;
   }
  
-  .custom-header{
+  
+  /* CLASES PROPIAS / PALETA DE COLORES */
+  .degradado{
     background-image: linear-gradient(to bottom, #e5c8ff, #b201b8);
   }
+
+  /* ESTRUCTURAS GENERALES */
+  header{
+
+  }
+  main{ min-height: 90vh;
+
+  }
+  footer{
+
+  }
+
+  /* ESTRUCTURAS DETALLADAS */
+  
+  /* Header */
   .logo-container {
     min-width: 125px;
     max-width: 20%;
@@ -23,8 +40,37 @@ body {
     margin-right: auto;
     margin-left: 0;
   }
-  /* ESTRUCTURAS GENERALES */
+  /* Main */
 
+  /* Carrusel */
+
+  .carousel-item{
+    height: 22rem;
+  }
+
+  /* Album */
+.card img {
+  object-fit: cover;
+}
+.rounded-circle {
+  max-width: 40px;
+  padding: 3;
+  margin: 0;
+  border: black;
+}
+.rounded-circle img {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+  /* Footer */
+  
+ 
+
+
+  /* MEDIA QUERYS */
 
 
   /*FORMULARIOS*/
