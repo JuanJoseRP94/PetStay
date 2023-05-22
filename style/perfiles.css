@@ -39,7 +39,17 @@ font-weight: bold;
     outline:auto #7400B8;
 } 
 
-.img-mascota {
-    max-width:50px;
-    max-height: 50px;
+.img-max {
+    width:100px;
+    height: 100px;
+    object-fit:cover;
+    object-position:center;
+    float: left;
+  }
+
+  .img-mascota {
+    width:100px;
+    height: 500px;
+    object-fit:cover;
+    object-position:center;
   }
