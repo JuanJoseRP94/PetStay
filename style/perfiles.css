@@ -1,0 +1,45 @@
+
+.bloque {
+background-color: #D099E3;
+padding: 10px;
+text-align: center;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.bloque2 {
+background-color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 10px;
+}
+
+.row {
+margin-bottom: 20px;
+}
+
+.titulos {
+color: #7400B8;
+font-weight: bold;
+font-size: large;
+padding: 10px;
+}
+
+.btn {
+background-color: #DCACE8;
+color: #7400B8; 
+border-color: #7400B8;
+float: right;
+font-weight: bold;
+}
+
+*:focus {
+    outline:auto #7400B8;
+} 
+
+.img-mascota {
+    max-width:50px;
+    max-height: 50px;
+  }
