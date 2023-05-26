@@ -174,20 +174,14 @@ footer {}
 
 .btn-reserva:hover {
   background-color: #8B26C3;
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.btn-reserva, .btn{
+  background-image: linear-gradient(to bottom, #DCACE8, #A24CCD);
+  border-color: #7400B8;
+  color:white;
+  font-size:11px;
+  }
 
 
 /* Footer */

@@ -15,9 +15,8 @@
     </head>
 
 <body>
-
-
-    <div id="contenedor_general">
+    <div class="container">
+<div id="contenedor_general">
         <header class="py-3 border-bottom degradado">
             <div class="container-fluid d-flex justify-content-between align-items-center">
       
@@ -40,11 +39,13 @@
                     <li>
                       <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="login.html">Cerrar sesión</a></li>
+                    <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
                   </ul>
                 </div>
               </div>
             </div>
+      
+          </header>
       
           </header>
       
@@ -83,7 +84,7 @@
 
             <!-- Galería de imágenes -->
             <div class="row my-4">
-                <div class="col-12 mx-auto bloque">
+                <div class="col-12 mx-auto bloque card p-4">
                     <div id="galeria" class="carousel slide" data-bs-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-bs-target="#galeria" data-bs-slide-to="0" class="active"></li>
@@ -91,7 +92,7 @@
                             <li data-bs-target="#galeria" data-bs-slide-to="2"></li>
                         </ol>
 
-                        <div class="carousel-inner">
+                        <div class="carousel-inner rounded">
                             <div class="carousel-item active">
                                 <img src="img/casa1.jpg" class="d-block w-100" alt="Imagen 1">
                             </div>
@@ -117,9 +118,9 @@
   
             <div class="row">
                 <div class="col-md-6 my-4">
-                    <div class="bloque">
+                    <div class="bloque card">
                         <a href="#" class="titulos">Características</a>
-                        <div class="row bloque2">
+                        <div class="row bloque2 rounded">
                             <div class="col text-start ">
                                     <ul id="caracteristicas">
                                         <li>Ítem 1</li>
@@ -131,78 +132,76 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-md-6 my-4">
-                    <div class="bloque">
-                        <a href="#" class="titulos">Mascotas</a>
-                        <div class="row bloque2">
-                        <div class="col">
-                            <a href="#" ><img src="img/Salem.jpg" class="img-max" alt="Mascota"></a>
-                        </div>
-                        <div class="col">
-                            <a href="#" ><img src="img/neka.jpg" class="img-max" alt="Mascota"></a>
-                        </div>
-                        <div class="col">
-                            <a href="#" ><img src="img/sant.jpg" class="img-max" alt="Mascota"></a>
-                        </div>
+
+                    <!-- Bloque de Mascotas -->
+                    <div class="col-md-6 my-4">
+                        <div class="bloque card shadow-sm">
+                            <a href="#" class="titulos">Mascotas</a>
+                            <div class="row d-flex bloque2 rounded shadow-sm d-flex ">
+                            <div class="col d-flex flex-column justify-content-end align-items-center">
+                                <a href="#" >
+                                    <div>
+                                        <img src="img/Salem.jpg" class="rounded img-perfil" alt="Mascota">
+                                        <p><strong>Salem</strong></p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col d-flex flex-column justify-content-end align-items-center">
+                                <a href="#" >
+                                    <div>
+                                        <img src="img/neka.jpg" class="rounded img-perfil" alt="Mascota">
+                                        <p><strong>Neka</strong></p> 
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col d-flex flex-column justify-content-end align-items-center">
+                                <a href="#" >
+                                    <div>
+                                        <img src="img/sant.jpg" class="rounded img-perfil" alt="Mascota">
+                                        <p><strong>Sant</strong></p>
+                                    </div>
+                                </a>
+                            </div>
+                            </div>
                         </div>
                     </div>
+            </div>
+
+           <!-- Bloque de valoraciones -->
+           <div class="row">
+            <div class="col-12">
+                <div class="bloque card shadow-sm">
+                <a href="#" class="titulos">Valoraciones</a>
+                <div class="row bloque2 rounded shadow-sm">
+                    <div class="col text-start ">
+                        <img src="img/gender-neutral-user.png" class="img-perfil mx-3 rounded" alt="Imagen">
+                        <a href="#">
+                            Valoración 1
+                            <div class="valoracion-texto">Texto de la valoración 1</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row bloque2 rounded shadow-sm">
+                    <div class="col text-start ">
+                        <img src="img/gender-neutral-user.png" class="img-perfil mx-3 rounded" alt="Imagen">
+                        <a href="#">
+                            Valoración 2
+                            <div class="valoracion-texto">Texto de la valoración 2</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row bloque2 rounded shadow-sm">
+                    <div class="col text-start ">
+                        <img src="img/gender-neutral-user.png" class="img-perfil mx-3 rounded" alt="Imagen">
+                        <a href="#">
+                            Valoración 3
+                            <div class="valoracion-texto">Texto de la valoración 3</div>
+                        </a>
+                    </div>
+                </div>
                 </div>
             </div>
-                
-
-            <!-- Bloque de valoraciones -->
-            <div class="contenedor_valoracion">
-                <div class="avatar">
-                  <img src="img/cuidadores.jpg" alt="User 1">
-                </div>
-          
-                <div class=" details">
-                  <h2>Manuel Pellegrini Ripamonti</h2>
-                  <div class="comentario">¡Excelente servicio!</div>
-                  <div class="calificacion">★★★★☆</div>
-                  
-                </div>
-              </div>
-            <div class="row">
-                    <div class="col-12">
-                    <div class="bloque">
-                    <a href="#" class="titulos">Valoraciones</a>
-                    <div class="row bloque2">
-                        <div class="col text-start">
-                            <img src="img/gender-neutral-user.png" class="img-max " alt="Imagen">
-                            <a href="#">
-                                Valoración 1
-                                <div class="valoracion-texto">Texto de la valoración 1</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row bloque2">
-                        <div class="col text-start">
-                            <img src="img/gender-neutral-user.png" class="img-max" alt="Imagen">
-                            <a href="#">
-                                Valoración 2
-                                <div class="valoracion-texto">Texto de la valoración 2</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row bloque2">
-                        <div class="col text-start">
-                            <img src="img/gender-neutral-user.png" class="img-max" alt="Imagen">
-                            <a href="#">
-                                Valoración 3
-                                <div class="valoracion-texto">Texto de la valoración 3</div>
-                            </a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-      
-   
-            
-         
-        
+            </div>
 
         </main>
 
@@ -220,6 +219,7 @@
             <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Sobre nosotros</a></li>
         </ul>
         </footer>
-
+    </div>
+    
 </body>
 </html>

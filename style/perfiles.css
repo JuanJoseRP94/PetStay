@@ -4,7 +4,7 @@
 
 
 .bloque {
-background-color: #D099E3;
+background-image: linear-gradient(to bottom, #DCACE8, #80469a);
 padding: 10px;
 text-align: center;
 font-weight: bold;
@@ -18,6 +18,11 @@ padding-bottom: 10px;
 margin-left: 20px;
 margin-right: 20px;
 margin-top: 10px;
+
+}
+
+.formulario{
+  background-color: #ece0ef;
 }
 
 .row {
@@ -32,23 +37,25 @@ padding: 10px;
 }
 
 .btn {
-background-color: #DCACE8;
-color: #7400B8; 
+background-image: linear-gradient(to bottom, #DCACE8, #A24CCD);
 border-color: #7400B8;
-float: right;
-font-weight: bold;
+font-style:oblique;
+color:white;
+font-size:11px;
 }
 
 *:focus {
     outline:auto #7400B8;
 } 
 
-.img-max {
+.img-perfil {
     width:100px;
     height: 100px;
     object-fit:cover;
     object-position:center;
     float: left;
+    border:#80469a solid;
+  
   }
 
   .img-mascota {
@@ -157,6 +164,7 @@ h2 {
   background-color: #45a049;
   }
 
+
   
   @media only screen and (max-width: 480px) {
     /* valoraciones */
@@ -169,5 +177,7 @@ h2 {
     .avatar{
       margin-bottom: 20px;
     }
+
+    
 
   }

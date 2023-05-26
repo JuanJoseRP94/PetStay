@@ -12,7 +12,7 @@
         <title>Perfil Usuario</title>
         <link rel="stylesheet" href="style/style.css">
         <link rel="stylesheet" href="style/perfiles.css">
-      
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
     </head>
 
 <body>
@@ -73,17 +73,16 @@
                 <div class="col-sm-4 d-flex justify-content-center align-items-end">
                 <p><strong>@usuario</strong></p>
                 </div>
-                <div class="col-sm-4 d-flex ">
+                <div class="col-sm-4 d-flex justify-content-center align-items-center ">
                 <div class="d-flex flex-column justify-content-end align-items-center">
-                    <img src="img/username-icon.svg" class="img-max" alt="Imagen">
-                    <p>Nombre Apellido 1 Apellido2</p>
-                    
+                    <img src="img/gender-neutral-user.png" class="rounded img-perfil my-4" alt="Imagen">
+                    <p style="white-space: nowrap" ><strong> Nombre Apellido 1 Apellido2</strong></p>
                 </div>
                 </div>
                 <div class="col-sm-4 d-flex justify-content-center align-items-center">
-                <div class="btn-group-vertical">
-                    <button class="btn btn-sm my-2">Editar perfil</button>
-                    <button class="btn btn-sm my-2">Calendario de Disponibilidad</button>
+                <div class="btn-group-vertical mt-2 align-self-start">
+                    <button class="btn btn-sm my-1 rounded">Editar perfil</button>
+                    <button class="btn btn-sm my-1 rounded">Calendario de Disponibilidad</button>
                 </div>
                 </div>
             </div>
@@ -91,21 +90,21 @@
   
             <div class="row">
                 <div class="col-sm-4 d-flex justify-content-center align-items-center">
-                    <div class="bloque-info">
+                    <div>
                         <label for="fecha-nacimiento">Fecha de nacimiento:</label>
-                        <input type="date" id="fecha-nacimiento">
+                        <input type="date" id="fecha-nacimiento" class="formulario rounded">
                     </div>
                 </div>
                 <div class="col-sm-4 d-flex justify-content-center align-items-center">
-                    <div class="bloque-info">
+                    <div>
                         <label for="email">Email:</label>
-                        <input type="text" id="email">
+                        <input type="text" id="email" class="formulario rounded">
                     </div>
                 </div>
                 <div class="col-sm-4 d-flex justify-content-center align-items-center">
-                    <div class="bloque-info">
+                    <div>
                         <label for="direccion">Dirección:</label>
-                        <input type="text" id="direccion">
+                        <input type="text" id="direccion" class="formulario rounded">
                     </div>
                 </div>
             </div>
@@ -113,12 +112,12 @@
             <!-- Presentación -->
             <div class="row">
                 <div class="col">
-                    <div class="bloque">
-                        <a href="#" class="titulos">Presentación</a>
+                    <div class="card shadow-sm bloque">
+                        <p class="titulos">Presentación</p>
                         <div class="row">
                             <div class="container-fluid">
                                 <form>
-                                  <textarea class="form-control" rows="5" placeholder="Introduce tu presentación aquí"></textarea>
+                                  <textarea class="form-control card shadow-sm" rows="5" placeholder="Introduce tu presentación aquí"></textarea>
                                 </form>
                               </div>
                         </div>
@@ -129,17 +128,32 @@
             <div class="row">
                 <!-- Bloque de Mascotas -->
                 <div class="col-md-6 my-4">
-                    <div class="bloque">
+                    <div class="bloque card shadow-sm">
                         <a href="#" class="titulos">Mascotas</a>
-                        <div class="row bloque2">
-                        <div class="col">
-                            <a href="#" ><img src="img/Salem.jpg" class="img-max" alt="Mascota"></a>
+                        <div class="row d-flex bloque2 rounded shadow-sm d-flex ">
+                        <div class="col d-flex flex-column justify-content-end align-items-center">
+                            <a href="#" >
+                                <div>
+                                    <img src="img/Salem.jpg" class="rounded img-perfil" alt="Mascota">
+                                    <p><strong>Salem</strong></p>
+                                </div>
+                            </a>
                         </div>
-                        <div class="col">
-                            <a href="#" ><img src="img/neka.jpg" class="img-max" alt="Mascota"></a>
+                        <div class="col d-flex flex-column justify-content-end align-items-center">
+                            <a href="#" >
+                                <div>
+                                    <img src="img/neka.jpg" class="rounded img-perfil" alt="Mascota">
+                                    <p><strong>Neka</strong></p> 
+                                </div>
+                            </a>
                         </div>
-                        <div class="col">
-                            <a href="#" ><img src="img/sant.jpg" class="img-max" alt="Mascota"></a>
+                        <div class="col d-flex flex-column justify-content-end align-items-center">
+                            <a href="#" >
+                                <div>
+                                    <img src="img/sant.jpg" class="rounded img-perfil" alt="Mascota">
+                                    <p><strong>Sant</strong></p>
+                                </div>
+                            </a>
                         </div>
                         </div>
                     </div>
@@ -147,52 +161,65 @@
 
                 <!-- Bloque de Alojamientos -->
                 <div class="col-md-6 my-4">
-                    <div class="bloque">
+                    <div class="bloque card shadow-sm">
                         <a href="#" class="titulos">Alojamientos</a>
-                        <div class="row bloque2">
-                        <div class="col">
-                            <a href="#"><img src="img/casa1.jpg" class="img-max" alt="Alojamiento 1"></a>
-                        </div>
-                        <div class="col">
-                            <a href="#"><img src="img/casa2.jpg" class="img-max" alt="Alojamiento 2"></a>
-                        </div>
-                        <div class="col">
-                            <a href="#"><img src="img/casa3.jpg" class="img-max" alt="Alojamiento 3"></a>
-                        </div>
+                        <div class="row bloque2 rounded shadow-sm">
+                            <div class="col d-flex flex-column justify-content-end align-items-center">
+                                <a href="#">
+                                    <div>
+                                        <img src="img/casa1.jpg" class="rounded img-perfil" alt="Alojamiento 1">
+                                        <p><strong>Alojamiento 1</strong></p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col d-flex flex-column justify-content-end align-items-center">
+                                <a href="#">
+                                    <div>
+                                        <img src="img/casa2.jpg" class="rounded img-perfil" alt="Alojamiento 1">
+                                        <p><strong>Alojamiento 3</strong></p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col d-flex flex-column justify-content-end align-items-center">
+                                <a href="#">
+                                    <div>
+                                        <img src="img/casa3.jpg" class="rounded img-perfil" alt="Alojamiento 1">
+                                        <p><strong>Alojamiento 3</strong></p>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     </div>
                 </div>
             </div>
-                
-             
 
             <!-- Bloque de valoraciones -->
             <div class="row">
             <div class="col-12">
-                <div class="bloque">
+                <div class="bloque card shadow-sm">
                 <a href="#" class="titulos">Valoraciones</a>
-                <div class="row bloque2">
+                <div class="row bloque2 rounded shadow-sm">
                     <div class="col text-start ">
-                        <img src="img/gender-neutral-user.png" class="img-max " alt="Imagen">
+                        <img src="img/gender-neutral-user.png" class="rounded img-perfil mx-3" alt="Imagen">
                         <a href="#">
                             Valoración 1
                             <div class="valoracion-texto">Texto de la valoración 1</div>
                         </a>
                     </div>
                 </div>
-                <div class="row bloque2">
+                <div class="row bloque2 rounded shadow-sm">
                     <div class="col text-start ">
-                        <img src="img/gender-neutral-user.png" class="img-max" alt="Imagen">
+                        <img src="img/gender-neutral-user.png" class="rounded img-perfil mx-3" alt="Imagen">
                         <a href="#">
                             Valoración 2
                             <div class="valoracion-texto">Texto de la valoración 2</div>
                         </a>
                     </div>
                 </div>
-                <div class="row bloque2">
+                <div class="row bloque2 rounded shadow-sm">
                     <div class="col text-start ">
-                        <img src="img/gender-neutral-user.png" class="img-max" alt="Imagen">
+                        <img src="img/gender-neutral-user.png" class="rounded img-perfil mx-3" alt="Imagen">
                         <a href="#">
                             Valoración 3
                             <div class="valoracion-texto">Texto de la valoración 3</div>
