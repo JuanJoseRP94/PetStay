@@ -16,55 +16,54 @@
 
 <body>
 
-<div class="container">
 
     <div id="contenedor_general">
         <header class="py-3 border-bottom degradado">
-          <div class="container-fluid d-flex justify-content-between align-items-center">
-    
-            <div class="d-flex offset-sm-4 col-4 justify-content-center">
-              <img src="img/logo_blanco.png" class="logo-container">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+      
+              <div class="d-flex offset-sm-4 col-4 justify-content-center">
+                <img src="img/logo_blanco.png" class="logo-container">
+              </div>
+      
+      
+      
+              <div class="d-flex col-4 justify-content-end">
+                <div class="flex-shrink-0 dropdown">
+                  <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="img/man-1868563_1280.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+                  </a>
+                  <ul class="dropdown-menu text-small shadow">
+                    <li><a class="dropdown-item" href="#">Perfil</a></li>
+                    <li><a class="dropdown-item" href="#">Ajustes</a></li>
+                    <li><a class="dropdown-item" href="#">Notificaciones</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="login.html">Cerrar sesión</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-    
-    
-    
-            <div class="d-flex col-4 justify-content-end">
-              <div class="flex-shrink-0 dropdown">
-                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  <img src="img/man-1868563_1280.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
-                </a>
-                <ul class="dropdown-menu text-small shadow">
-                  <li><a class="dropdown-item" href="#">Perfil</a></li>
-                  <li><a class="dropdown-item" href="#">Ajustes</a></li>
-                  <li><a class="dropdown-item" href="#">Notificaciones</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+      
+          </header>
+      
+          <nav class="navbar navbar-expand-md border-bottom justify-content-center py-1">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-left" id="navbarMenu">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="buscar_alojamientos.html">Busca Alojamiento</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Busqueda_Cuidadores.html">Busca Cuidador</a></li>
+                  <li class="nav-item"><a class="nav-link" href="configuracion.html">Configuración</a></li>
                 </ul>
               </div>
             </div>
-          </div>
-    
-        </header>
-    
-        <nav class="navbar navbar-expand-md border-bottom justify-content-center py-1">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
-              aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-left" id="navbarMenu">
-              <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Busca Alojamiento</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Busca cuidador</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Configuración</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+          </nav>
 
         <main>
             <!-- Datos Mascota -->
@@ -153,8 +152,20 @@
                 
 
             <!-- Bloque de valoraciones -->
+            <div class="contenedor_valoracion">
+                <div class="avatar">
+                  <img src="img/cuidadores.jpg" alt="User 1">
+                </div>
+          
+                <div class=" details">
+                  <h2>Manuel Pellegrini Ripamonti</h2>
+                  <div class="comentario">¡Excelente servicio!</div>
+                  <div class="calificacion">★★★★☆</div>
+                  
+                </div>
+              </div>
             <div class="row">
-                <div class="col-12">
+                    <div class="col-12">
                     <div class="bloque">
                     <a href="#" class="titulos">Valoraciones</a>
                     <div class="row bloque2">
@@ -204,8 +215,8 @@
             </a>
 
             <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Inicio</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contáctanos</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Inicio</a></li>
+            <li class="nav-item"><a href="contactanos.html" class="nav-link px-2 text-white">Contáctanos</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Sobre nosotros</a></li>
         </ul>
         </footer>
