@@ -15,56 +15,56 @@
     </head>
 
 <body>
-
-<div class="container">
-
-    <div id="contenedor_general">
+    <div class="container">
+<div id="contenedor_general">
         <header class="py-3 border-bottom degradado">
-          <div class="container-fluid d-flex justify-content-between align-items-center">
-    
-            <div class="d-flex offset-sm-4 col-4 justify-content-center">
-              <img src="img/logo_blanco.png" class="logo-container">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+      
+              <div class="d-flex offset-sm-4 col-4 justify-content-center">
+                <img src="img/logo_blanco.png" class="logo-container">
+              </div>
+      
+      
+      
+              <div class="d-flex col-4 justify-content-end">
+                <div class="flex-shrink-0 dropdown">
+                  <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <img src="img/man-1868563_1280.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
+                  </a>
+                  <ul class="dropdown-menu text-small shadow">
+                    <li><a class="dropdown-item" href="#">Perfil</a></li>
+                    <li><a class="dropdown-item" href="#">Ajustes</a></li>
+                    <li><a class="dropdown-item" href="#">Notificaciones</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+                  </ul>
+                </div>
+              </div>
             </div>
-    
-    
-    
-            <div class="d-flex col-4 justify-content-end">
-              <div class="flex-shrink-0 dropdown">
-                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  <img src="img/man-1868563_1280.jpg" alt="mdo" width="32" height="32" class="rounded-circle">
-                </a>
-                <ul class="dropdown-menu text-small shadow">
-                  <li><a class="dropdown-item" href="#">Perfil</a></li>
-                  <li><a class="dropdown-item" href="#">Ajustes</a></li>
-                  <li><a class="dropdown-item" href="#">Notificaciones</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+      
+          </header>
+      
+          </header>
+      
+          <nav class="navbar navbar-expand-md border-bottom justify-content-center py-1">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+                aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-left" id="navbarMenu">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="buscar_alojamientos.html">Busca Alojamiento</a></li>
+                  <li class="nav-item"><a class="nav-link" href="Busqueda_Cuidadores.html">Busca Cuidador</a></li>
+                  <li class="nav-item"><a class="nav-link" href="configuracion.html">Configuración</a></li>
                 </ul>
               </div>
             </div>
-          </div>
-    
-        </header>
-    
-        <nav class="navbar navbar-expand-md border-bottom justify-content-center py-1">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
-              aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-left" id="navbarMenu">
-              <ul class="navbar-nav mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" href="#">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Busca Alojamiento</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Busca cuidador</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Configuración</a></li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+          </nav>
 
         <main>
             <!-- Datos Mascota -->
@@ -84,7 +84,7 @@
 
             <!-- Galería de imágenes -->
             <div class="row my-4">
-                <div class="col-12 mx-auto bloque">
+                <div class="col-12 mx-auto bloque card p-4">
                     <div id="galeria" class="carousel slide" data-bs-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-bs-target="#galeria" data-bs-slide-to="0" class="active"></li>
@@ -92,7 +92,7 @@
                             <li data-bs-target="#galeria" data-bs-slide-to="2"></li>
                         </ol>
 
-                        <div class="carousel-inner">
+                        <div class="carousel-inner rounded">
                             <div class="carousel-item active">
                                 <img src="img/casa1.jpg" class="d-block w-100" alt="Imagen 1">
                             </div>
@@ -118,9 +118,9 @@
   
             <div class="row">
                 <div class="col-md-6 my-4">
-                    <div class="bloque">
+                    <div class="bloque card">
                         <a href="#" class="titulos">Características</a>
-                        <div class="row bloque2">
+                        <div class="row bloque2 rounded">
                             <div class="col text-start ">
                                     <ul id="caracteristicas">
                                         <li>Ítem 1</li>
@@ -132,66 +132,76 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-md-6 my-4">
-                    <div class="bloque">
-                        <a href="#" class="titulos">Mascotas</a>
-                        <div class="row bloque2">
-                        <div class="col">
-                            <a href="#" ><img src="img/Salem.jpg" class="img-max" alt="Mascota"></a>
-                        </div>
-                        <div class="col">
-                            <a href="#" ><img src="img/neka.jpg" class="img-max" alt="Mascota"></a>
-                        </div>
-                        <div class="col">
-                            <a href="#" ><img src="img/sant.jpg" class="img-max" alt="Mascota"></a>
-                        </div>
+
+                    <!-- Bloque de Mascotas -->
+                    <div class="col-md-6 my-4">
+                        <div class="bloque card shadow-sm">
+                            <a href="#" class="titulos">Mascotas</a>
+                            <div class="row d-flex bloque2 rounded shadow-sm d-flex ">
+                            <div class="col d-flex flex-column justify-content-end align-items-center">
+                                <a href="#" >
+                                    <div>
+                                        <img src="img/Salem.jpg" class="rounded img-perfil" alt="Mascota">
+                                        <p><strong>Salem</strong></p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col d-flex flex-column justify-content-end align-items-center">
+                                <a href="#" >
+                                    <div>
+                                        <img src="img/neka.jpg" class="rounded img-perfil" alt="Mascota">
+                                        <p><strong>Neka</strong></p> 
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col d-flex flex-column justify-content-end align-items-center">
+                                <a href="#" >
+                                    <div>
+                                        <img src="img/sant.jpg" class="rounded img-perfil" alt="Mascota">
+                                        <p><strong>Sant</strong></p>
+                                    </div>
+                                </a>
+                            </div>
+                            </div>
                         </div>
                     </div>
+            </div>
+
+           <!-- Bloque de valoraciones -->
+           <div class="row">
+            <div class="col-12">
+                <div class="bloque card shadow-sm">
+                <a href="#" class="titulos">Valoraciones</a>
+                <div class="row bloque2 rounded shadow-sm">
+                    <div class="col text-start ">
+                        <img src="img/gender-neutral-user.png" class="img-perfil mx-3 rounded" alt="Imagen">
+                        <a href="#">
+                            Valoración 1
+                            <div class="valoracion-texto">Texto de la valoración 1</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row bloque2 rounded shadow-sm">
+                    <div class="col text-start ">
+                        <img src="img/gender-neutral-user.png" class="img-perfil mx-3 rounded" alt="Imagen">
+                        <a href="#">
+                            Valoración 2
+                            <div class="valoracion-texto">Texto de la valoración 2</div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row bloque2 rounded shadow-sm">
+                    <div class="col text-start ">
+                        <img src="img/gender-neutral-user.png" class="img-perfil mx-3 rounded" alt="Imagen">
+                        <a href="#">
+                            Valoración 3
+                            <div class="valoracion-texto">Texto de la valoración 3</div>
+                        </a>
+                    </div>
+                </div>
                 </div>
             </div>
-                
-
-            <!-- Bloque de valoraciones -->
-            <div class="row">
-                <div class="col-12">
-                    <div class="bloque">
-                    <a href="#" class="titulos">Valoraciones</a>
-                    <div class="row bloque2">
-                        <div class="col text-start">
-                            <img src="img/gender-neutral-user.png" class="img-max " alt="Imagen">
-                            <a href="#">
-                                Valoración 1
-                                <div class="valoracion-texto">Texto de la valoración 1</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row bloque2">
-                        <div class="col text-start">
-                            <img src="img/gender-neutral-user.png" class="img-max" alt="Imagen">
-                            <a href="#">
-                                Valoración 2
-                                <div class="valoracion-texto">Texto de la valoración 2</div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="row bloque2">
-                        <div class="col text-start">
-                            <img src="img/gender-neutral-user.png" class="img-max" alt="Imagen">
-                            <a href="#">
-                                Valoración 3
-                                <div class="valoracion-texto">Texto de la valoración 3</div>
-                            </a>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                </div>
-      
-   
-            
-         
-        
+            </div>
 
         </main>
 
@@ -204,11 +214,12 @@
             </a>
 
             <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Inicio</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Contáctanos</a></li>
+            <li class="nav-item"><a href="index.html" class="nav-link px-2 text-white">Inicio</a></li>
+            <li class="nav-item"><a href="contactanos.html" class="nav-link px-2 text-white">Contáctanos</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 text-white">Sobre nosotros</a></li>
         </ul>
         </footer>
-
+    </div>
+    
 </body>
 </html>

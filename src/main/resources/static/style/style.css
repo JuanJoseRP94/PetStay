@@ -153,42 +153,6 @@ footer {}
   color: gray;
 }
 
-/* Media queries */
-@media (max-width: 767px) {
-
-  /* Estilos para pantallas pequeñas */
-  .card-img-top {
-    margin-bottom: 10px;
-  }
-
-  .card-afitrion,
-  .card-valoraciones {
-    text-align: left;
-  }
-}
-
-@media (min-width: 768px) {
-
-  /* Estilos para pantallas medianas y grandes */
-  .row {
-    display: flex;
-    align-items: left;
-  }
-
-  .card-img-top {
-    margin-bottom: 10px;
-  }
-
-  .col-lg-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-
-  .card-afitrion,
-  .card-valoraciones {
-    text-align: left;
-  }
-}
 
 
 .btn-reserva {
@@ -210,24 +174,14 @@ footer {}
 
 .btn-reserva:hover {
   background-color: #8B26C3;
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.btn-reserva, .btn{
+  background-image: linear-gradient(to bottom, #DCACE8, #A24CCD);
+  border-color: #7400B8;
+  color:white;
+  font-size:11px;
+  }
 
 
 /* Footer */
@@ -236,6 +190,51 @@ footer {}
 
 
 /* MEDIA QUERYS */
+/* Media queries */
+
+@media only screen and (min-width: 768px) {
+
+  /* Estilos para pantallas medianas y grandes */
+  .row {
+    display: flex;
+    align-items: left;
+  }
+
+  .card-img-top {
+    margin-bottom: 10px;
+  }
+
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .card-afitrion,
+  .card-valoraciones {
+    text-align: left;
+  }
+
+  
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  /* Estilos para pantallas pequeñas */
+  .card-img-top {
+    margin-bottom: 10px;
+  }
+
+  .card-afitrion,
+  .card-valoraciones {
+    text-align: left;
+  }
+
+
+
+}
+ 
+@media only screen and (max-width: 480px) {
 
 
 /*FORMULARIOS*/
@@ -324,3 +323,4 @@ input[type="checkbox"] {
 .border-purple {
   border: 2px solid #6a0dad;
 }
+} 
