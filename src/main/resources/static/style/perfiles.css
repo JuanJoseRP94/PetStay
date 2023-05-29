@@ -4,7 +4,7 @@
 
 
 .bloque {
-background-image: linear-gradient(to bottom, #DCACE8, #80469a);
+background-image: linear-gradient(to bottom, #DCACE8, #AE60D3);
 padding: 10px;
 text-align: center;
 font-weight: bold;
@@ -37,17 +37,23 @@ padding: 10px;
 }
 
 .btn {
-background-image: linear-gradient(to bottom, #DCACE8, #A24CCD);
+
 border-color: #7400B8;
 font-style:oblique;
-color:white;
+color:#7400B8;
+font-weight: bold;
 font-size:11px;
 }
 
-*:focus {
-    outline:auto #7400B8;
+.btn:hover, .btn:focus{
+    color:white;
+    border-color: #7400B8;
+    background-color: #7400B8;
 } 
 
+.btn:focus{
+
+}
 .img-perfil {
     width:100px;
     height: 100px;
@@ -64,6 +70,32 @@ font-size:11px;
     object-fit:cover;
     object-position:center;
   }
+
+      
+    .enlace {
+      color: black; 
+      text-decoration: none; 
+    }
+
+    /* Estilo para el enlace al hacer clic */
+    .enlace:hover
+    .enlace:focus {
+        color: #7400B8; 
+        text-decoration: none; 
+    }
+
+    .enlace-bloque {
+      color: #7400B8; 
+      text-decoration: none; 
+    }
+
+    /* Estilo para el enlace al hacer clic */
+    .enlace-bloque:hover
+    .enlace-bloque:focus {
+        color: white; 
+        text-decoration: none; 
+    }
+
 
   
 /*Valoraciones*/

@@ -179,10 +179,18 @@ footer {}
 .btn-reserva, .btn{
   background-image: linear-gradient(to bottom, #DCACE8, #A24CCD);
   border-color: #7400B8;
-  color:white;
+  font-size:11px;
+  font-style:oblique;
+  color:#7400B8;
+  font-weight: bold;
   font-size:11px;
   }
-
+  
+.btn:hover, .btn:focus{
+      color:white;
+      border-color: #7400B8;
+      background-image: linear-gradient(to bottom, #C586DD, #7400B8);
+  } 
 
 /* Footer */
 

@@ -67,20 +67,26 @@
           </nav>
 
         <main>
-            <!-- Datos Mascota -->
-            <div>
-                <button class="btn my-2">Editar</button>
+            <!-- Datos Alojamiento -->
+            
+            <div class="row d-flex align-items-center mt-4">
+                <div class="col-sm-4 d-flex justify-content-center align-items-center"></div>
+                <div class="col-sm-4 d-flex flex-column justify-content-end align-items-center">
+                    <p class="text-nowrap"><strong>Nombre Alojamiento</strong></p>
+                </div>
+                <div class="col-sm-4 my-4 d-flex justify-content-center align-self-start">
+                    <button class="btn btn-sm my-1 rounded">Editar</button>
+                </div>
             </div>
-            <div class="row">
-        
-                <div class="col d-flex mt-4 justify-content-center">
-                <div class="d-flex flex-column ">
-                    <p><strong>Nombre Alojamiento</strong></p>
-                </div>
-                </div>
+            
                 
+ 
+            <div class="row my-4">
+                <div class="bloque-info">
+                    <label for="sexo">Dirección:</label>
+                    <input type="text" id="sexo" class="formulario rounded">
+                </div>
             </div>
-
 
             <!-- Galería de imágenes -->
             <div class="row my-4">
@@ -116,92 +122,157 @@
                 </div>
             </div>
   
-            <div class="row">
+            <div class="col-md-6 my-4">
+                <div class="bloque card">
+                  <p class="titulos">Características</p>
+                  <div class="row">
+                    <div class="col">
+                      <div class="bloque2 rounded mt-0 pt-4">
+                        <ul id="comportamiento" class="list-unstyled text-center">
+                          <li >Ítem 1</li>
+                          <li>Ítem 2</li>
+                          <li>Ítem 3</li>
+                          <li>Ítem 4</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                <!-- Bloque de Mascotas -->
                 <div class="col-md-6 my-4">
-                    <div class="bloque card">
-                        <a href="#" class="titulos">Características</a>
-                        <div class="row bloque2 rounded">
-                            <div class="col text-start ">
-                                    <ul id="caracteristicas">
-                                        <li>Ítem 1</li>
-                                        <li>Ítem 2</li>
-                                        <li>Ítem 3</li>
-                                        <li>Ítem 4</li>
-                                    </ul>
-                            </div>
+                    <div class="bloque card shadow-sm">
+                        <a href="#" class="enlace-bloque titulos ">Mascotas</a>
+                        <div class="row d-flex bloque2 rounded shadow-sm d-flex ">
+                        <div class="col d-flex flex-column justify-content-end align-items-center">
+                            <a href="#" class="enlace">
+                                <div>
+                                    <img src="../../static/img/Salem.jpg" class="rounded img-perfil mb-1" alt="Mascota">
+                                    <p class="mb-0"><strong>Salem</strong></p>
+                                    <div class="rating">
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col d-flex flex-column justify-content-end align-items-center">
+                            <a href="#" class="enlace">
+                                <div>
+                                    <img src="../../static/img/neka.jpg" class="rounded img-perfil mb-1" alt="Mascota">
+                                    <p class="mb-0"><strong>Neka</strong></p>
+                                    <div class="rating">
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col d-flex flex-column justify-content-end align-items-center">
+                            <a href="#" class="enlace">
+                                <div>
+                                    <img src="../../static/img/sant.jpg" class="rounded img-perfil mb-1" alt="Mascota">
+                                    <p class="mb-0"><strong>Sant</strong></p>
+                                    <div class="rating">
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                        <span class="star">&#9733;</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                         </div>
                     </div>
                 </div>
-
-                    <!-- Bloque de Mascotas -->
-                    <div class="col-md-6 my-4">
-                        <div class="bloque card shadow-sm">
-                            <a href="#" class="titulos">Mascotas</a>
-                            <div class="row d-flex bloque2 rounded shadow-sm d-flex ">
-                            <div class="col d-flex flex-column justify-content-end align-items-center">
-                                <a href="#" >
-                                    <div>
-                                        <img src="../../static/img/Salem.jpg" class="rounded img-perfil" alt="Mascota">
-                                        <p><strong>Salem</strong></p>
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col d-flex flex-column justify-content-end align-items-center">
-                                <a href="#" >
-                                    <div>
-                                        <img src="../../static/img/neka.jpg" class="rounded img-perfil" alt="Mascota">
-                                        <p><strong>Neka</strong></p> 
-                                    </div>
-                                </a>
-                            </div>
-                            <div class="col d-flex flex-column justify-content-end align-items-center">
-                                <a href="#" >
-                                    <div>
-                                        <img src="../../static/img/sant.jpg" class="rounded img-perfil" alt="Mascota">
-                                        <p><strong>Sant</strong></p>
-                                    </div>
-                                </a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
+                    
             </div>
 
            <!-- Bloque de valoraciones -->
            <div class="row">
             <div class="col-12">
                 <div class="bloque card shadow-sm">
-                <a href="#" class="titulos">Valoraciones</a>
+                <a href="#" class="titulos enlace-bloque">Valoraciones</a>
                 <div class="row bloque2 rounded shadow-sm">
-                    <div class="col text-start ">
-                        <img src="../../static/img/gender-neutral-user.png" class="img-perfil mx-3 rounded" alt="Imagen">
-                        <a href="#">
-                            Valoración 1
-                            <div class="valoracion-texto">Texto de la valoración 1</div>
-                        </a>
+                  <div class="col text-start py-2">
+                    <div class="d-flex align-items-center">
+                        <img src="../../static/img/gender-neutral-user.png" class="rounded img-perfil mx-3" alt="Imagen">
+                        <div class="d-flex flex-column">
+                            <a href="#" class="enlace">
+                                Valoración 1
+                                <div class="rating">
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                    <span class="star">&#9733;</span>
+                                </div>
+                                <h6>
+                                    <div class="valoracion-texto">Texto de la valoración</div>
+                                </h6>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="row bloque2 rounded shadow-sm">
-                    <div class="col text-start ">
-                        <img src="../../static/img/gender-neutral-user.png" class="img-perfil mx-3 rounded" alt="Imagen">
-                        <a href="#">
-                            Valoración 2
-                            <div class="valoracion-texto">Texto de la valoración 2</div>
-                        </a>
-                    </div>
-                </div>
-                <div class="row bloque2 rounded shadow-sm">
-                    <div class="col text-start ">
-                        <img src="../../static/img/gender-neutral-user.png" class="img-perfil mx-3 rounded" alt="Imagen">
-                        <a href="#">
+                
+                <hr class="linea border-top border-2 mt-3">
+
+                <div class="col text-start py-2">
+                  <div class="d-flex align-items-center">
+                      <img src="../../static/img/gender-neutral-user.png" class="rounded img-perfil mx-3" alt="Imagen">
+                      <div class="d-flex flex-column">
+                          <a href="#" class="enlace">
+                              Valoración 2
+                              <div class="rating">
+                                  <span class="star">&#9733;</span>
+                                  <span class="star">&#9733;</span>
+                                  <span class="star">&#9733;</span>
+                                  <span class="star">&#9733;</span>
+                                  <span class="star">&#9733;</span>
+                              </div>
+                              <h6>
+                                  <div class="valoracion-texto">Texto de la valoración</div>
+                              </h6>
+                          </a>
+                      </div>
+                  </div>
+              </div>
+
+              <hr class="linea border-top border-2 mt-3">
+
+              <div class="col text-start py-2">
+                <div class="d-flex align-items-center">
+                    <img src="../../static/img/gender-neutral-user.png" class="rounded img-perfil mx-3" alt="Imagen">
+                    <div class="d-flex flex-column">
+                        <a href="#" class="enlace">
                             Valoración 3
-                            <div class="valoracion-texto">Texto de la valoración 3</div>
+                            <div class="rating">
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                                <span class="star">&#9733;</span>
+                            </div>
+                            <h6>
+                                <div class="valoracion-texto">Texto de la valoración</div>
+                            </h6>
                         </a>
                     </div>
                 </div>
+            </div>
+                              
                 </div>
             </div>
-            </div>
+          </div>
+        </div>
 
         </main>
 
